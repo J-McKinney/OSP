@@ -70,7 +70,10 @@ const Checkout = () => {
 
           {cartItems.length === 0 ? (
             <div>
-              Your Cart Is Empty <Link to="/">Go Back</Link>
+              Your Cart Is Empty{" "}
+              <Link style={{ textDecoration: "none", width: "10%" }} to="/">
+                <Button className={Styles.goBack}>Go Back</Button>
+              </Link>
             </div>
           ) : (
             cartItems.map((item) => (

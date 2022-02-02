@@ -15,11 +15,18 @@
   padding: 1rem;
 }
 
+.goBack {
+  width: 15%;
+  border-radius: 12px;
+  background-color: #171717;
+}
+
 .cartscreen__right {
   flex: 0.3;
   background: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   height: fit-content;
+  border-radius: 15px;
 }
 
 .cartscreen__right div {
@@ -46,10 +53,17 @@
   color: #f4f4f4;
   border: 1px solid #171717;
   cursor: pointer;
+  border-radius: 12px;
 }
 
-.cartscreen__right div button:hover {
+.cartscreen__right div button:hover,
+.goBack:hover {
   opacity: 0.9;
+}
+
+.cartscreen__right div button:active,
+.goBack:active {
+  transform: translateY(3px);
 }
 
 @media (max-width: 1320px) {

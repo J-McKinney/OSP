@@ -53,6 +53,24 @@ const products = [
     price: 140,
     countInStock: 10,
   },
+  {
+    name: "Apple AirPods Pro",
+    imageUrl:
+      "https://target.scene7.com/is/image/Target/GUEST_d0e38ad9-2355-4e9d-97d6-60b31d5421dc?fmt=webp&wid=1400&qlt=80",
+    description:
+      "AirPods Pro feature Active Noise Cancellation for immersive sound. Transparency mode for hearing the world around you. They’re sweat and water resistant and have a customizable fit for all-day comfort.",
+    price: 199,
+    countInStock: 15,
+  },
+  {
+    name: 'MSI Pulse GL66 15.6" 144Hz 3ms FHD Gaming Laptop',
+    imageUrl:
+      "https://target.scene7.com/is/image/Target/GUEST_fbde85c6-91fd-4724-be82-fab48c5a26cd?fmt=webp&wid=1400&qlt=80",
+    description:
+      "MSI Pulse GL66 is a futuristic gaming laptop. Equipped with the latest 11th Gen. Intel® Core™ i7 processor and NVIDIA® GeForce RTX™ 3050 graphics for next gen gaming performance. Newly designed thermal solution with larger diameter thermal pipe with a 144Hz FHD display for maximum cooling under heavy gaming. New MSI Center with modern UI design to monitor, adjust and optimize system.",
+    price: 1149,
+    countInStock: 3,
+  },
 ];
 
 module.exports = products;

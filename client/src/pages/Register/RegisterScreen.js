@@ -58,6 +58,7 @@ const RegisterScreen = ({ history }) => {
         <div className="form-group">
           <label htmlFor="name">Username:</label>
           <input
+            className={Styles.input}
             type="text"
             required
             id="name"
@@ -69,6 +70,7 @@ const RegisterScreen = ({ history }) => {
         <div className="form-group">
           <label htmlFor="email">Email:</label>
           <input
+            className={Styles.input}
             type="email"
             required
             id="email"
@@ -80,6 +82,7 @@ const RegisterScreen = ({ history }) => {
         <div className="form-group">
           <label htmlFor="password">Password:</label>
           <input
+            className={Styles.input}
             type="password"
             required
             id="password"
@@ -92,6 +95,7 @@ const RegisterScreen = ({ history }) => {
         <div className="form-group">
           <label htmlFor="confirmpassword">Confirm Password:</label>
           <input
+            className={Styles.input}
             type="password"
             required
             id="confirmpassword"
@@ -101,7 +105,11 @@ const RegisterScreen = ({ history }) => {
             onChange={(e) => setConfirmPassword(e.target.value)}
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button
+          id={Styles.registerBtn}
+          type="submit"
+          className="btn btn-primary"
+        >
           Register
         </button>
 

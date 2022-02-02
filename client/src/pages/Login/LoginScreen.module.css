@@ -31,6 +31,10 @@
   border-radius: 15px;
 }
 
+#loginBtn:active {
+  transform: translateY(3px);
+}
+
 .loginScreen__forgotpassword {
   font-size: 0.7rem;
 }

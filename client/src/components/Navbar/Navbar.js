@@ -19,7 +19,7 @@ const Navbar = ({ click }) => {
       <nav className={Styles.navbar}>
         <Link style={{ textDecoration: "none" }} to="/">
           <div className={Styles.navbar__logo}>
-            <h2>Old School Products</h2>
+            <h2>OS Products</h2>
           </div>
         </Link>
 

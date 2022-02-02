@@ -24,3 +24,12 @@
   display: block;
   margin: 0.5rem 0;
 }
+
+#registerBtn,
+.input {
+  border-radius: 12px;
+}
+
+#registerBtn:active {
+  transform: translateY(3px);
+}

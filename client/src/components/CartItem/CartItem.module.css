@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
   gap: 8px;
   background: #fff;
-  border-radius: 2px;
+  border-radius: 12px;
   place-items: center;
   margin-bottom: 8px;
 }
@@ -16,7 +16,7 @@
 }
 
 .cartItem__name:hover {
-  color: #dd219e;
+  color: coral;
 }
 
 .cartItem__select {

@@ -44,6 +44,7 @@ const LoginScreen = ({ history }) => {
   return (
     <div className={Styles.loginScreen}>
       <form onSubmit={loginHandler} className={Styles.loginScreen__form}>
+        <h3 className={Styles.loginScreen__title}>OS Products</h3>
         <h3 className={Styles.loginScreen__title}>Login</h3>
         {error && <span className={Styles.errorMessage}>{error}</span>}
         <div className="form-group">
