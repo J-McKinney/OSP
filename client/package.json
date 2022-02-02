@@ -4,6 +4,7 @@
   "proxy": "http://127.0.0.1:5000",
   "private": true,
   "dependencies": {
+    "animejs": "^3.2.1",
     "axios": "^0.25.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.2",

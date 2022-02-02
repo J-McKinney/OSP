@@ -5,6 +5,7 @@
   "main": "server.js",
   "author": "Jesse McKinney",
   "scripts": {
+    "gogo": "git status && git add . && git commit -m 'autoDeploy' && git push",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "concurrently \"nodemon server.js\" \"cd client && npm run start\"",
